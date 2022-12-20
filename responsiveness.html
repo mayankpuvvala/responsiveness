@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web responsiveness</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p{
+            padding: 4px;
+            margin: 5px;
+            border: 7px;
+        }
+
+        @media only screen and (max-width: 600px) {
+         body{
+              color: rgba(255, 0, 0, 0.523);
+        font-weight: bolder;
+    } 
+
+        }
+        @media (orientation: landscape){
+            body{
+                font-size: x-large;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        }
+        @media screen and (max-width: 400px),
+        screen and (orientation: potrait) {
+            body{
+                color: rgb(241, 0, 169);
+            }
+            
+        }
+        @media not all and (orientation: landscape)  {
+            body{
+                color: yellowgreen
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="fluid-wrap">
+        <div id="sidebar">
+          <h3>Team Apna College:</h3>
+          <ul id="nav">
+             <li><a data-email= "dhattarwalaman97@gmail.com" href="mailto: amandhattanwa197@gmail. com">Aman Dhattarwal</a></li>
+             <li><a data-email=" rahulneha@likeher. com" href="mailto: rahul lneha@likeher. com">Rahul Kumar</a></li>
+             <li><a data-email="neharahul@ame. com" href="mailto: neharahu l@me. com">Neha Sharma</a></li>
+          </ul>
+        </div>
+      
+    
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi architecto vel atque velit ab rerum nihil laboriosam consequuntur dolore voluptas, reiciendis esse rem? Dicta dolorem quia repudiandae eius architecto iusto odio rerum asperiores earum, reiciendis ab nam mollitia odit nobis qui suscipit ut saepe distinctio et, laboriosam consequatur sunt alias.</p>
+    
+</body>
+</html>
